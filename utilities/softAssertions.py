@@ -7,9 +7,10 @@ It provides functionality to assert the result
 Example:
     self.check_point.markFinal("Test Name", result, "Message")
 """
-import WP_499.utilities.custom_logger as cl
+import utilities.custom_logger as cl
 import logging
-from WP_499.base.selenium_driver import SeleniumDriver
+from base.selenium_driver import SeleniumDriver
+from traceback import print_stack
 
 class TestStatus(SeleniumDriver):
 
@@ -31,12 +32,16 @@ class TestStatus(SeleniumDriver):
                 else:
                     self.resultList.append("FAIL")
                     self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                    self.screenShot(resultMessage)
             else:
                 self.resultList.append("FAIL")
                 self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                self.screenShot(resultMessage)
         except:
             self.resultList.append("FAIL")
             self.log.error("### Exception Occurred !!!")
+            self.screenShot(resultMessage)
+            print_stack()
 
     def mark(self, result, resultMessage):
         """

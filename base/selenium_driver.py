@@ -3,8 +3,10 @@ from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-import WP_499.utilities.custom_logger as cl
+import utilities.custom_logger as cl
 import logging
+import time
+import os
 
 class SeleniumDriver():
 
@@ -13,9 +15,29 @@ class SeleniumDriver():
     def __init__(self, driver):
         self.driver = driver
 
+    def screenShot(self, resultMessage):
+        """
+        Takes screenshot of the current open web page
+        """
+        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
+        screenshotDirectory = "/home/dima/QA/Python/PythonSeleniumTests/screenShots/"
+        relativeFileName = screenshotDirectory + fileName
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory, relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenshotDirectory)
+
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            self.log.info("Screenshot save to directory: " + destinationFile)
+        except:
+            self.log.error("### Exception Occurred when taking screenshot")
+            print_stack()
+
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
-        if locatorType == "id":
+        if locatorType == 'id':
             return By.ID
         elif locatorType == "name":
             return By.NAME
@@ -28,7 +50,7 @@ class SeleniumDriver():
         elif locatorType == "linktext":
             return By.LINK_TEXT
         else:
-            # print("Locator type " + locatorType + " not correct/supported")
+            print("Locator type " + locatorType + " not correct/supported")
             self.log.info("Locator type " + locatorType + " not correct/supported")
         return False
 
@@ -37,38 +59,40 @@ class SeleniumDriver():
         try:
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
+            # print('!!!!!!element!!!!!!!')
             element = self.driver.find_element(byType, locator)
-            # print("Element Found")
-            self.log.info("Element Found")
+            self.log.info("Element found with locator: " + locator +
+                          " and  locatorType: " + locatorType +" "+ locatorType)
         except:
-            # print("Element not found")
-            self.log.info("Element not found")
+            self.log.info("Element not found with locator: " + locator +
+                          " and  locatorType: " + locatorType)
         return element
 
     def elementClick(self, locator, locatorType="id"):
         try:
             element = self.getElement(locator, locatorType)
             element.click()
-            # print("Element clicked: " + locator + 'locator type: ' + locatorType)
-            self.log("Element clicked: " + locator + 'locator type: ' + locatorType)
+            self.log.info("Clicked on element with locator: " + locator +
+                          " locatorType: " + locatorType)
         except:
-            # print("Element not clickable: "+ locator + 'locator type: '+ locatorType)
-            self.log.info("Element not clickable: "+ locator + 'locator type: '+ locatorType)
-            print_stack()
+            print("Cannot click on the element with locator: " + locator)
+            self.log.info("Cannot click on the element with locator: " + locator +
+                          " locatorType: " + locatorType)
+            # print_stack()
 
     def sendKeys(self, data, locator, locatorType="id"):
         try:
             element = self.getElement(locator, locatorType)
-            element.clear()
             element.send_keys(data)
-            # print("Data sent to: " + locator + 'locator type: ' + locatorType)
-            self.log.info("Data sent to: " + locator + 'locator type: ' + locatorType)
+            self.log.info("Sent data on element with locator: " + locator +
+                          " locatorType: " + locatorType)
         except:
-            # print("Data didn't send to: "+ locator + 'locator type: '+ locatorType)
-            self.log.info("Data didn't send to: "+ locator + 'locator type: '+ locatorType)
-            print_stack()
+            print('Cannot send data on the element with locator: ' + locator )
+            self.log.info("Cannot send data on the element with locator: " + locator +
+                          " locatorType: " + locatorType)
+            # print_stack()
 
-    def isElementPresent(self, locator, byType):
+    def isElementPresent(self, locator, byType="id"):
         try:
             element = self.driver.find_element(byType, locator)
             if element is not None:
@@ -84,7 +108,7 @@ class SeleniumDriver():
             self.log.info("Element not found")
             return False
 
-    def elementPresenceCheck(self, locator, byType):
+    def elementPresenceCheck(self, locator, byType="id"):
         try:
             elementList = self.driver.find_elements(byType, locator)
             if len(elementList) > 0:
@@ -101,7 +125,8 @@ class SeleniumDriver():
             return False
 
     def waitForElement(self, locator, locatorType="id",
-                       timeout=10, pollFrequency=0.5):
+                       timeout=30, pollFrequency=2):
+        # time.sleep(2)
         element = None
         try:
             byType = self.getByType(locatorType)
@@ -116,3 +141,6 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page")
             print_stack()
         return element
+
+    def getTitle(self):
+            return self.driver.title

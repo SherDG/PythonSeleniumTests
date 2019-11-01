@@ -1,0 +1,211 @@
+11/01/2019 10:38:49 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:38:49 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:38:50 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:38:51 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:38:52 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:38:52 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:38:52 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:38:52 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:38:52 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:38:52 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:38:53 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:38:53 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:38:54 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:38:57 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:38:57 AM - SeleniumDriver - INFO: Element not found
+11/01/2019 10:38:57 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login was successful
+11/01/2019 10:38:57 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login test
+11/01/2019 10:38:57 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 10:40:10 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:40:10 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:40:11 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:40:11 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:40:12 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:40:12 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:40:12 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:40:12 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:40:13 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:40:13 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:40:14 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:40:14 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:40:15 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:40:18 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:40:18 AM - SeleniumDriver - INFO: Element not found
+11/01/2019 10:40:18 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login was successful
+11/01/2019 10:40:18 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login test
+11/01/2019 10:40:18 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 10:41:33 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:41:33 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:41:34 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:41:34 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:41:35 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:41:35 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:41:35 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:41:35 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:41:36 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:41:36 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:41:37 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:41:37 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:41:38 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:41:40 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:41:40 AM - SeleniumDriver - INFO: Element not found
+11/01/2019 10:41:40 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login was successful
+11/01/2019 10:41:40 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Login test
+11/01/2019 10:41:40 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 10:45:04 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:45:05 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:45:06 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:45:06 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:45:07 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:45:07 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:45:08 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:45:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:45:08 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:45:08 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:45:09 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:45:09 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:45:10 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:45:11 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:47:17 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:47:17 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:47:18 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:47:18 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:47:19 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:47:20 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:47:20 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:47:20 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:47:20 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:47:20 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:47:21 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:47:21 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:47:22 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:47:25 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:48:39 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:48:39 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:48:40 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:48:40 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:48:41 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:48:42 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:48:42 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:48:42 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:48:42 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:48:42 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:48:43 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:48:43 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:48:44 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:48:46 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:49:43 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:49:43 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:49:44 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:49:44 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:49:45 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:49:45 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:49:45 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:49:45 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:49:46 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:49:46 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:49:47 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:49:47 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:49:48 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:49:50 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:50:26 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:50:26 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:50:27 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:50:27 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:50:28 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:50:28 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:50:28 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:50:28 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:50:29 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:50:29 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:50:30 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:50:30 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:50:31 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:50:34 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:50:34 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Title was successfully verified
+11/01/2019 10:50:34 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:50:34 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was successful
+11/01/2019 10:50:34 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login test
+11/01/2019 10:50:34 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 10:54:22 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:54:22 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:54:23 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:54:23 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:54:24 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:54:25 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:54:25 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:54:25 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was not successful
+11/01/2019 10:54:25 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:54:25 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:54:26 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:54:26 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:54:27 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:54:31 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:54:31 AM - TestStatus - ERROR: ### VERIFICATION FAILED: Title was successfully verified
+11/01/2019 10:54:31 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:54:31 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login was successful
+11/01/2019 10:54:31 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL: Login test
+11/01/2019 10:54:31 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+11/01/2019 10:56:26 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:56:26 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:56:27 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:56:27 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:56:28 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:56:29 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:56:29 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:56:29 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+11/01/2019 10:56:29 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 10:56:29 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 10:56:30 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 10:56:30 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 10:56:31 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 10:56:33 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 10:56:33 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title was successfully verified
+11/01/2019 10:56:34 AM - TestStatus - INFO: Screenshot save to directory: /home/dima/QA/Python/PythonSeleniumTests/screenShots/Title was successfully verified.1572598593890.png
+11/01/2019 10:56:34 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 10:56:34 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/01/2019 10:56:34 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login test
+11/01/2019 10:56:34 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 11:00:00 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 11:00:00 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 11:00:01 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 11:00:01 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 11:00:02 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 11:00:03 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 11:00:03 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 11:00:03 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+11/01/2019 11:00:03 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 11:00:03 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 11:00:04 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 11:00:04 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 11:00:05 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 11:00:08 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 11:00:08 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title was successfully verified
+11/01/2019 11:00:08 AM - TestStatus - INFO: Screenshot save to directory: /home/dima/QA/Python/PythonSeleniumTests/screenShots/Title was successfully verified.1572598808247.png
+11/01/2019 11:00:08 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 11:00:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/01/2019 11:00:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login test
+11/01/2019 11:00:08 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/01/2019 11:10:16 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 11:10:17 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 11:10:18 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 11:10:18 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 11:10:19 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 11:10:19 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 11:10:19 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 11:10:19 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+11/01/2019 11:10:20 AM - SeleniumDriver - INFO: Element found with locator: user_login and  locatorType: id id
+11/01/2019 11:10:20 AM - SeleniumDriver - INFO: Sent data on element with locator: user_login locatorType: id
+11/01/2019 11:10:21 AM - SeleniumDriver - INFO: Element found with locator: user_pass and  locatorType: id id
+11/01/2019 11:10:21 AM - SeleniumDriver - INFO: Sent data on element with locator: user_pass locatorType: id
+11/01/2019 11:10:22 AM - SeleniumDriver - INFO: Element found with locator: wp-submit and  locatorType: id id
+11/01/2019 11:10:24 AM - SeleniumDriver - INFO: Clicked on element with locator: wp-submit locatorType: id
+11/01/2019 11:10:24 AM - Util - INFO: Actual Text From Application Web UI --> :: Dashboard ‹ 498.wordpress.imunify.localTC_16_ChangeSiteSettings — WordPress
+11/01/2019 11:10:24 AM - Util - INFO: Expected Text From Application Web UI --> :: Google
+11/01/2019 11:10:24 AM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+11/01/2019 11:10:24 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title was successfully verified
+11/01/2019 11:10:24 AM - TestStatus - INFO: Screenshot save to directory: /home/dima/QA/Python/PythonSeleniumTests/screenShots/Title was successfully verified.1572599424565.png
+11/01/2019 11:10:24 AM - SeleniumDriver - INFO: Element Found
+11/01/2019 11:10:24 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/01/2019 11:10:24 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login test
+11/01/2019 11:10:24 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED

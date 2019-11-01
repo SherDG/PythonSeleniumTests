@@ -11,7 +11,7 @@ def customLogger(logLevel=logging.DEBUG):
     # By default, log all messages
     logger.setLevel(logging.DEBUG)
 
-    fileHandler = logging.FileHandler("D:\\QA\\Python\\SeleniumWebDriverWithPython3x\\WP_499\\tests\\homecmsLogs.log", mode='a')
+    fileHandler = logging.FileHandler("homecmsLogs.log", mode='a')
     # fileHandler = logging.FileHandler("{0}.log".format(loggerName), mode='w')
     fileHandler.setLevel(logLevel)
 

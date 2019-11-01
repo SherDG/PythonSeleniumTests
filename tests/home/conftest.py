@@ -1,19 +1,22 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+
 
 @pytest.yield_fixture(scope="class")
-def oneTimeSetUp(request, browser='firefox'):
+def oneTimeSetUp(request, browser='chrome'):
     print("Running one time setUp")
     baseURL = 'http://499.wordpress.imunify.local/wp-login.php'
     if browser == 'firefox':
-        driver = webdriver.Firefox(executable_path='D:\\QA\\Drivers\geckodriver.exe')
+        binary = FirefoxBinary('/usr/bin/firefox')
+        driver = webdriver.Firefox(executable_path=r'/home/dima/QA/Drivers/firefox_linux64/geckodriver',firefox_binary=binary)
         driver.maximize_window()
-        driver.implicitly_wait(3)
+        driver.implicitly_wait(1)
         # driver.get(baseURL)
         print("Running tests on FF")
     else:
         print("Running tests on chrome")
-        driver = webdriver.Chrome(executable_path='D:\\QA\\Drivers\chromedriver.exe')
+        driver = webdriver.Chrome(executable_path=r'/home/dima/QA/Drivers/chromedriver_linux64/chromedriver')
         # driver.get(baseURL)
     if request.cls is not None:
         request.cls.driver = driver
